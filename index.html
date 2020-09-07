@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Chat App CSS Illustration</title>
+
+  <link rel="stylesheet" href="chatApp.css" />
+  <script src="https://kit.fontawesome.com/eea31c4faf.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+  <div class="main">
+    <div class="bg-up"></div>
+    <div class="bg-down"></div>
+
+    <div class="container">
+
+      <div class="left">
+
+        <div class="chatUI">
+
+          <div class="chat-header">
+            <div class="notch"></div>
+
+            <div class="back"><i class="fas fa-chevron-left"></i></div>
+
+            <div class="sender-avatar"><img src="images/avatar.jpg" alt="Sender Photo" /></div>
+
+            <div class="sender-info">
+              <div class="sender-name">Samuel Green</div>
+              <div class="sender-status">Available to Walk</div>
+            </div>
+
+            <div><i class="fas fa-ellipsis-v"></i></div>
+          </div>
+
+          <div class="chat-body">
+
+            <div class="sender-chat">That sounds great. I’d be happy with that.</div>
+
+            <div class="sender-chat">Could you send over some pictures of your dog, please?</div>
+
+            <div class="self-image-holder">
+              <img src="images/dog-image-1.jpg" alt="Dog 1" />
+              <img src="images/dog-image-2.jpg" alt="Dog 2" />
+              <img src="images/dog-image-3.jpg" alt="Dog 3" />
+            </div>
+
+            <div class="self-chat">Here are a few pictures. She’s a happy girl!</div>
+
+            <div class="self-chat">Can you make it?</div>
+            
+            <div class="sender-chat">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+
+            <div class="rate-holder">
+              <label for="rate1">
+                <input type="radio" name="rate" id="rate1" value="29">
+                <span class="custom-radio"></span>
+                <span class="duration">30 minute walk</span>
+                <span class="rate">$29</span>
+              </label>
+            </div>
+
+            <div class="rate-holder">
+              <label for="rate2">
+                <input type="radio" name="rate" id="rate2" value="49">
+                <span class="custom-radio"></span>
+                <span class="duration">1 hour walk</span>
+                <span class="rate">$49</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="chat-input">
+            <input type="text" placeholder="Type a message.." title="Type Message" id="chatInput">
+            <button id="sendMessage" title="Send Message"><i class="fas fa-chevron-right"></i></button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="right">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sankara Gomathy M</a>.
+  </footer>
+</body>
+</html>
